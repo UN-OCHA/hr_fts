@@ -30,6 +30,46 @@ function hr_fts_user_default_permissions() {
     'module' => 'bean',
   );
 
+  // Exported permission: create any fts_highcharts bean.
+  $permissions['create any fts_highcharts bean'] = array(
+    'name' => 'create any fts_highcharts bean',
+    'roles' => array(
+      'administrator' => 'administrator',
+      'manager' => 'manager',
+    ),
+    'module' => 'bean',
+  );
+
+  // Exported permission: delete any fts_highcharts bean.
+  $permissions['delete any fts_highcharts bean'] = array(
+    'name' => 'delete any fts_highcharts bean',
+    'roles' => array(
+      'administrator' => 'administrator',
+      'manager' => 'manager',
+    ),
+    'module' => 'bean',
+  );
+
+  // Exported permission: edit any fts_highcharts bean.
+  $permissions['edit any fts_highcharts bean'] = array(
+    'name' => 'edit any fts_highcharts bean',
+    'roles' => array(
+      'administrator' => 'administrator',
+      'manager' => 'manager',
+    ),
+    'module' => 'bean',
+  );
+
+  // Exported permission: view any fts_highcharts bean.
+  $permissions['view any fts_highcharts bean'] = array(
+    'name' => 'view any fts_highcharts bean',
+    'roles' => array(
+      'administrator' => 'administrator',
+      'manager' => 'manager',
+    ),
+    'module' => 'bean',
+  );
+
   // Exported permission: view bean page.
   $permissions['view bean page'] = array(
     'name' => 'view bean page',
