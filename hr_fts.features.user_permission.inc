@@ -64,8 +64,8 @@ function hr_fts_user_default_permissions() {
   $permissions['view any fts_highcharts bean'] = array(
     'name' => 'view any fts_highcharts bean',
     'roles' => array(
-      'administrator' => 'administrator',
-      'manager' => 'manager',
+      'anonymous user' => 'anonymous user',
+      'authenticated user' => 'authenticated user',
     ),
     'module' => 'bean',
   );
