@@ -10,9 +10,9 @@
 function hr_fts_field_default_field_instances() {
   $field_instances = array();
 
-  // Exported field_instance: 'bean-fts_highcharts-title_field'
-  $field_instances['bean-fts_highcharts-title_field'] = array(
-    'bundle' => 'fts_highcharts',
+  // Exported field_instance: 'bean-fts_visualization-title_field'
+  $field_instances['bean-fts_visualization-title_field'] = array(
+    'bundle' => 'fts_visualization',
     'default_value' => NULL,
     'deleted' => 0,
     'description' => 'The Title of the block.',
