@@ -10,7 +10,7 @@
 function hr_fts_user_default_permissions() {
   $permissions = array();
 
-  // Exported permission: access bean overview.
+  // Exported permission: 'access bean overview'.
   $permissions['access bean overview'] = array(
     'name' => 'access bean overview',
     'roles' => array(
@@ -20,7 +20,7 @@ function hr_fts_user_default_permissions() {
     'module' => 'bean',
   );
 
-  // Exported permission: administer beans.
+  // Exported permission: 'administer beans'.
   $permissions['administer beans'] = array(
     'name' => 'administer beans',
     'roles' => array(
@@ -30,7 +30,7 @@ function hr_fts_user_default_permissions() {
     'module' => 'bean',
   );
 
-  // Exported permission: create any fts_visualization bean.
+  // Exported permission: 'create any fts_visualization bean'.
   $permissions['create any fts_visualization bean'] = array(
     'name' => 'create any fts_visualization bean',
     'roles' => array(
@@ -40,7 +40,7 @@ function hr_fts_user_default_permissions() {
     'module' => 'bean',
   );
 
-  // Exported permission: delete any fts_visualization bean.
+  // Exported permission: 'delete any fts_visualization bean'.
   $permissions['delete any fts_visualization bean'] = array(
     'name' => 'delete any fts_visualization bean',
     'roles' => array(
@@ -50,7 +50,7 @@ function hr_fts_user_default_permissions() {
     'module' => 'bean',
   );
 
-  // Exported permission: edit any fts_visualization bean.
+  // Exported permission: 'edit any fts_visualization bean'.
   $permissions['edit any fts_visualization bean'] = array(
     'name' => 'edit any fts_visualization bean',
     'roles' => array(
@@ -60,7 +60,7 @@ function hr_fts_user_default_permissions() {
     'module' => 'bean',
   );
 
-  // Exported permission: view any fts_visualization bean.
+  // Exported permission: 'view any fts_visualization bean'.
   $permissions['view any fts_visualization bean'] = array(
     'name' => 'view any fts_visualization bean',
     'roles' => array(
@@ -70,7 +70,7 @@ function hr_fts_user_default_permissions() {
     'module' => 'bean',
   );
 
-  // Exported permission: view bean page.
+  // Exported permission: 'view bean page'.
   $permissions['view bean page'] = array(
     'name' => 'view bean page',
     'roles' => array(

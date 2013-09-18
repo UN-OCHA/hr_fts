@@ -1,0 +1,12 @@
+<?php
+/**
+ * @file
+ * hr_fts.features.inc
+ */
+
+/**
+ * Implements hook_views_api().
+ */
+function hr_fts_views_api($module = NULL, $api = NULL) {
+  return array("api" => "3.0");
+}
